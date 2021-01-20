@@ -1,0 +1,74 @@
+.project-showcase{
+	background: #ffffff;
+}
+.section-padding{
+	width:650px;
+	margin: 0 auto;
+	padding:10px;
+}
+
+.owl-item .item {
+   transform: translate3d(0, 0, 0); /* DO NOT REMEMBER WHERE TU PUT THIS, SEARCH FOR 3D ACCELERATION */
+  /* // transform: scale(0.9); */
+
+  /* // transition: all .25s ease-in-out;  */
+  margin: 5px 0; /* OVERWRITE PLUGIN MARGIN */
+ }
+
+.screenshot_slider .owl-item .item img {
+    -webkit-transition: 0.3s;
+    -webkit-box-shadow: 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.screenshot_slider .owl-nav {
+    text-align: center;
+    /* // margin: 40px 0; */
+}
+
+.screenshot_slider .owl-nav button {
+	font-size: 18px !important;
+	margin: 10px;
+    color: crimson !important;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.back-button button{
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.proejct-title{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color:crimson;
+
+}
+
+.proejct-subtitle{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color:crimson;
+}
+
+.live-project-button button{
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.project-details-container{
+    font-family: 'Open Sans', sans-serif;
+}
